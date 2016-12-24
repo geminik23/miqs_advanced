@@ -13,5 +13,8 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)include\miqs.adv.base.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\miqs.adv.pitch_shift.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

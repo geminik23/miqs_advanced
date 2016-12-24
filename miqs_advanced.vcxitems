@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+    <ItemsProjectGuid>{50C655E5-D539-4446-ABDD-04E869537B1B}</ItemsProjectGuid>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)include\miqs.adv.base.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\miqs.adv.pitch_shift.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)include\miqs.advanced.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)miqs.advanced" />
   </ItemGroup>
